@@ -1,0 +1,19 @@
+import codecademylib
+from matplotlib import pyplot as plt
+from random import sample,seed
+#.Define three lists, x, y1, and y2 and fill them with integers. These numbers can be anything you want, but it would be neat to have them be actual metrics that you want to compare. This is a fun site you can look at to find example datasets to plot!
+seed(0)
+x = sample(range(0,100),10)
+seed(1)
+y1 = sample(range(0,100),10)
+seed(2)
+y2 = sample(range(0,100),10)
+#Plot y1 vs x and display the plot.
+plt.plot(x,y1,marker = 'o',color='pink')
+#On the same graph, plot y2 vs x (after the line where you plot y1 vs x)
+plt.plot(x,y2,marker = 'o',color='gray')
+plt.title("Two Lines on One Graph")
+plt.xlabel("Amazing X-axis")
+plt.ylabel("Incredible Y-axis")
+plt.legend(['y1 vs X', 'y2 vs X'])
+plt.show()
