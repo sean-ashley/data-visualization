@@ -1,39 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@sean-ashley 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-sean-ashley
-/
-data-visualization
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-data-visualization/sublime-limes.py /
-@sean-ashley
-sean-ashley Create sublime-limes.py
-…
-Latest commit 1b05288 3 minutes ago
- History
- 1 contributor
-51 lines (43 sloc)  1.75 KB
-  
 import codecademylib
 from matplotlib import pyplot as plt
 
@@ -85,15 +50,3 @@ plt.title('Lime Sales (per type) vs Month')
 #save the figure as a png
 plt.savefig('Sublime_Limes_visit_and_sale_graphs.png')
 plt.show()
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
